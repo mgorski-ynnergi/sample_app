@@ -7,8 +7,8 @@ development:
   adapter: mysql2
   encoding: utf8
   database: sample_dev
-  username: root
-  password: G0r5k1zSQL
+  username: rails_test
+  password: vVdRpewJU8DMXD62
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -18,14 +18,14 @@ test:
   adapter: mysql2
   encoding: utf8
   database: sample_test
-  username: root
-  password: G0r5k1zSQL
+  username: rails_test
+  password: vVdRpewJU8DMXD62
   socket: /tmp/mysql.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   database: sample_prod
-  username: root
-  password: G0r5k1zSQL
+  username: rails_test
+  password: vVdRpewJU8DMXD62
   socket: /tmp/mysql.sock
